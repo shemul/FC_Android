@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Socketest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="fa_thumbs_up"></string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_faculty">Faculty</string>
+
+    <string name="fontello_logo">&#xe802;</string>
+    <string name="welcome">Identifying user !</string>
+    <string name="avilable">&#xf0ab;</string>
+    <string name="title_activity_test">Test</string>
+    <string name="icon_heart">&#xf004;</string>
+
+
+</resources>

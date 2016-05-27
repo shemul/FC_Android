@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\left_menu_travel_small.jpg",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\left_menu_travel_small.jpg"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\mat.jpg",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\mat.jpg"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\cloud_app_icon.png",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\cloud_app_icon.png"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\mountain.jpg",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\mountain.jpg"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\sno.jpg",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\sno.jpg"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\busy_icon.png",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\busy_icon.png"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\splash_screen_background.jpg",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\splash_screen_background.jpg"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\tansbutton_black.xml",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\tansbutton_black.xml"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\drag_and_drop_background_image.jpg",
+        "source": "F:\\android\\UIAppTemplate\\res\\drawable-nodpi\\drag_and_drop_background_image.jpg"
+    }
+]

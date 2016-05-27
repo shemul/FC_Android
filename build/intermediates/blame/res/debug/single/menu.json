@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\android\\UIAppTemplate\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "F:\\android\\UIAppTemplate\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\menu\\menu_test.xml",
+        "source": "F:\\android\\UIAppTemplate\\res\\menu\\menu_test.xml"
+    }
+]
