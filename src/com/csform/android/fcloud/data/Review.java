@@ -1,4 +1,4 @@
-package com.csform.android.uiapptemplate.data;
+package com.csform.android.fcloud.data;
 
 /**
  * allow this class to distingues the data of a review
@@ -11,6 +11,7 @@ public class Review {
     public String f_name ;
     public String f_email ;
     public String f_status ;
+
 
     public Review(String _id, String f_id, String f_name, String f_email, String f_status) {
         this._id = _id;

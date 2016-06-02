@@ -1,11 +1,10 @@
-package com.csform.android.uiapptemplate;
+package com.csform.android.fcloud;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.method.ScrollingMovementMethod;
@@ -14,8 +13,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.csform.android.uiapptemplate.data.Review;
-import com.csform.android.uiapptemplate.data.ReviewAdapter;
+import com.csform.android.fcloud.data.Review;
+import com.csform.android.fcloud.data.ReviewAdapter;
 import com.github.nkzawa.emitter.Emitter;
 import com.github.nkzawa.socketio.client.IO;
 import com.github.nkzawa.socketio.client.Socket;
@@ -93,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
 
         mSocket2.connect();
 
-        //List<String> where = new ArrayList<String>();
         final List<Review> items = new ArrayList<Review>();
 
         recyclerView.setAdapter(adapter = new ReviewAdapter(items, R.layout.fb));
@@ -103,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         console = (TextView) findViewById(R.id.textView);
         console.setMovementMethod(new ScrollingMovementMethod());
 
-        Log.d("skt", "socket 2 is staring");
+
         //mSocket2.connect();
         mSocket2.on("entrance", new Emitter.Listener() {
 
@@ -122,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                             try {
 
                                 ob = (JSONObject) jb.getJSONObject(i);
-                                Log.d("entrance2" , ob.toString());
+
                                 String f_name = ob.getString("f_name");
                                 String _id = ob.getString("_id");
                                 String f_id = ob.getString("f_id");

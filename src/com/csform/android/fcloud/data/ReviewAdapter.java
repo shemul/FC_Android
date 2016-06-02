@@ -1,4 +1,4 @@
-package com.csform.android.uiapptemplate.data;
+package com.csform.android.fcloud.data;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -13,21 +13,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.csform.android.uiapptemplate.MainActivity;
-import com.csform.android.uiapptemplate.R;
+import com.csform.android.fcloud.MainActivity;
+import com.csform.android.fcloud.R;
 
-import java.io.IOException;
 import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.List;
 
 ;
 
-public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder> implements View.OnClickListener {
+public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder> {
 
     private List<Review> items;
-    private OnRecyclerViewItemClickListener<Review> itemClickListener;
+
     private int itemLayout;
 
     public ReviewAdapter(List<Review> items, int itemLayout) {
@@ -39,7 +36,7 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(itemLayout, parent, false);
-        v.setOnClickListener(this);
+
         return new ViewHolder(v);
     }
 
@@ -87,13 +84,7 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
         return items.size();
     }
 
-    @Override
-    public void onClick(View view) {
-        if (itemClickListener != null) {
-            Review model = (Review) view.getTag();
-            itemClickListener.onItemClick(view, model);
-        }
-    }
+
 
     public void add(Review item, int position) {
         items.add(position, item);
@@ -106,9 +97,7 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
         notifyItemRemoved(position);
     }
 
-    public void setOnItemClickListener(OnRecyclerViewItemClickListener<Review> listener) {
-        this.itemClickListener = listener;
-    }
+
 
     private static int setColorAlpha(int color, int alpha) {
         return (alpha << 24) | (color & 0x00ffffff);
