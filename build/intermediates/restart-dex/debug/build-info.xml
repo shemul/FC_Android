@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="tvdpi"
+    format="7"
+    timestamp="2876241043317"
+    verifier="R_CLASS_CHANGE" >
+
+    <task
+        name="javac"
+        duration="650" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="107" />
+    <task
+        name="verifier"
+        duration="22" />
+
+    <artifact
+        location="F:\android\UIAppTemplate\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="F:\android\UIAppTemplate\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="F:\android\UIAppTemplate\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="F:\android\UIAppTemplate\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+
+    <build timestamp="1487108126797" >
+        <artifact
+            location="F:\android\UIAppTemplate\build\outputs\apk\UIAppTemplate-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="2876241043317"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="F:\android\UIAppTemplate\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="F:\android\UIAppTemplate\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="F:\android\UIAppTemplate\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="F:\android\UIAppTemplate\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

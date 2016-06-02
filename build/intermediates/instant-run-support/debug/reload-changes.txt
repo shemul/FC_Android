@@ -1,0 +1,13 @@
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$menu$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\MainActivity$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$styleable$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$layout$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$string$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$id$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\data\ReviewAdapter$ViewHolder$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$style$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\csform\android\uiapptemplate\R$integer$override.class
+CHANGED,F:\android\UIAppTemplate\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$layout$override.class
