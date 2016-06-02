@@ -1,16 +1,25 @@
 package com.csform.android.uiapptemplate.data;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.os.AsyncTask;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.csform.android.uiapptemplate.MainActivity;
 import com.csform.android.uiapptemplate.R;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.List;
 
 ;
@@ -46,6 +55,16 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
         holder.f_email.setText(item.f_email);
         Typeface font = Typeface.createFromAsset(MainActivity.contex.getAssets(), "fonts/fontawesome-webfont.ttf" );
         holder.statusIcon.setTypeface(font);
+
+        Log.d("Mega" , item.f_id);
+
+        new DownloadImageTask((ImageView) holder.profile_pic)
+                .execute("http://fsit.aiub.edu/Files/Uploads/" + item.f_id +".JPG");
+
+
+
+
+
         if(item.f_status.equals("Available")) {
             holder.statusIcon.setTextColor(Color.parseColor("#4caf50"));
             holder.statusIcon.setText(new String(new char[]{0xf111 }));
@@ -101,6 +120,7 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
         private TextView f_status;
         private TextView f_email;
         TextView statusIcon;
+        ImageView profile_pic ;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -108,6 +128,7 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
             f_status = (TextView) itemView.findViewById(R.id.f_status);
             f_email = (TextView) itemView.findViewById(R.id.f_email);
             statusIcon = (TextView) itemView.findViewById(R.id.status_icon);
+            profile_pic = (ImageView) itemView.findViewById(R.id.profilePic);
         }
 
 
@@ -169,4 +190,29 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
     }
 
 
+}
+
+class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
+    ImageView bmImage;
+
+    public DownloadImageTask(ImageView bmImage) {
+        this.bmImage = bmImage;
+    }
+
+    protected Bitmap doInBackground(String... urls) {
+        String urldisplay = urls[0];
+        Bitmap mIcon11 = null;
+        try {
+            InputStream in = new java.net.URL(urldisplay).openStream();
+            mIcon11 = BitmapFactory.decodeStream(in);
+        } catch (Exception e) {
+            Log.e("Error", e.getMessage());
+            e.printStackTrace();
+        }
+        return mIcon11;
+    }
+
+    protected void onPostExecute(Bitmap result) {
+        bmImage.setImageBitmap(result);
+    }
 }
