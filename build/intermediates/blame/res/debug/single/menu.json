@@ -1,14 +1,14 @@
 [
     {
-        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "F:\\android\\UIAppTemplate\\res\\menu\\main.xml"
+        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/res/menu/main.xml"
     },
     {
-        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "F:\\android\\UIAppTemplate\\res\\menu\\menu_main.xml"
+        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/menu/menu_test.xml",
+        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/res/menu/menu_test.xml"
     },
     {
-        "merged": "F:\\android\\UIAppTemplate\\build\\intermediates\\res\\merged\\debug\\menu\\menu_test.xml",
-        "source": "F:\\android\\UIAppTemplate\\res\\menu\\menu_test.xml"
+        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/res/menu/menu_main.xml"
     }
 ]

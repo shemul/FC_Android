@@ -8,9 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
+
     <style name="Toolbartitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textColor">@android:color/white</item>
     </style>
+
     <style name="ToolbarSubtitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
         <item name="android:textColor">#56FFFFFF</item>
     </style>
@@ -19,10 +21,15 @@
         <item name="background">@color/main_color_500</item>
         <item name="titleTextStyle">@style/ActionBarStyle.TitleTextStyle</item>
     </style>
+
     <style name="ActionBarStyle.TitleTextStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textColorPrimary">@android:color/white</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

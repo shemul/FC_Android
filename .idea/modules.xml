@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UIAppTemplate.iml" filepath="$PROJECT_DIR$/UIAppTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fcloudCloud.iml" filepath="$PROJECT_DIR$/fcloudCloud.iml" />
     </modules>
   </component>
 </project>
