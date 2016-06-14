@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/drawable-ldpi-v4/phone1.png",
-        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/res/drawable-ldpi/phone1.png"
+        "merged": "F:\\android\\FC_Android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\phone1.png",
+        "source": "F:\\android\\FC_Android\\res\\drawable-ldpi\\phone1.png"
     },
     {
-        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/drawable-ldpi-v4/greenot.png",
-        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/res/drawable-ldpi/greenot.png"
+        "merged": "F:\\android\\FC_Android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\greenot.png",
+        "source": "F:\\android\\FC_Android\\res\\drawable-ldpi\\greenot.png"
+    },
+    {
+        "merged": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\greenot.png",
+        "source": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\res\\drawable-ldpi\\greenot.png"
+    },
+    {
+        "merged": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\phone1.png",
+        "source": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\res\\drawable-ldpi\\phone1.png"
     }
 ]

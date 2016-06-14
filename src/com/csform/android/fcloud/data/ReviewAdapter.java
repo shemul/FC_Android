@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.csform.android.fcloud.MainActivity;
@@ -44,16 +45,14 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
     public void onBindViewHolder(final ViewHolder holder, int position) {
         final Review item = items.get(position);
         holder.itemView.setTag(item);
-        holder.f_name.setText(item.f_name);
+        holder.f_name.setText(item.f_name.toUpperCase());
 
-        holder.f_status.setText(
-               "Status : " + item.f_status
-        );
-        holder.f_email.setText(item.f_email);
+        holder.f_status.setText(item.f_status.toUpperCase());
+        //holder.f_email.setText(item.f_email);
         Typeface font = Typeface.createFromAsset(MainActivity.contex.getAssets(), "fonts/fontawesome-webfont.ttf" );
-        holder.statusIcon.setTypeface(font);
+       // holder.statusIcon.setTypeface(font);
 
-        Log.d("Mega" , item.f_id);
+       // holder.f_dept.setText(item.f_dept);
 
         new DownloadImageTask((ImageView) holder.profile_pic)
                 .execute("http://fsit.aiub.edu/Files/Uploads/" + item.f_id +".JPG");
@@ -63,14 +62,18 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
 
 
         if(item.f_status.equals("Available")) {
-            holder.statusIcon.setTextColor(Color.parseColor("#4caf50"));
-            holder.statusIcon.setText(new String(new char[]{0xf111 }));
+            //holder.statusIcon.setTextColor(Color.parseColor("#4caf50"));
+            //holder.statusIcon.setText(new String(new char[]{0xf111 }));
+            holder.LL1.setBackgroundColor(Color.parseColor("#4ea851"));
         } else if (item.f_status.equals("Busy")) {
-            holder.statusIcon.setTextColor(Color.parseColor("#f44336"));
-            holder.statusIcon.setText(new String(new char[]{0xf111}));
+            //holder.statusIcon.setTextColor(Color.parseColor("#f44336"));
+            //holder.statusIcon.setText(new String(new char[]{0xf111}));
+            holder.LL1.setBackgroundColor(Color.parseColor("#f44336"));
+
         } else if(item.f_status.equals("Gone")) {
-            holder.statusIcon.setTextColor(Color.parseColor("#ff9800"));
-            holder.statusIcon.setText(new String(new char[]{0xf111}));
+//            holder.statusIcon.setTextColor(Color.parseColor("#ff9800"));
+//            holder.statusIcon.setText(new String(new char[]{0xf111}));
+            holder.LL1.setBackgroundColor(Color.parseColor("#ff9800"));
         }
 
     }
@@ -110,14 +113,18 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
         private TextView f_email;
         TextView statusIcon;
         ImageView profile_pic ;
+        TextView f_dept ;
+        private  LinearLayout LL1;
 
         public ViewHolder(View itemView) {
             super(itemView);
             f_name = (TextView) itemView.findViewById(R.id.f_name);
             f_status = (TextView) itemView.findViewById(R.id.f_status);
             f_email = (TextView) itemView.findViewById(R.id.f_email);
-            statusIcon = (TextView) itemView.findViewById(R.id.status_icon);
+            //statusIcon = (TextView) itemView.findViewById(R.id.status_icon);
             profile_pic = (ImageView) itemView.findViewById(R.id.profilePic);
+            //f_dept = (TextView) itemView.findViewById(R.id.f_dept);
+            LL1 = (LinearLayout) itemView.findViewById(R.id.LL1);
         }
 
 

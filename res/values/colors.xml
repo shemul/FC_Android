@@ -50,7 +50,8 @@
     <color name="material_drawer_dark_selected_text">@color/material_drawer_primary</color>
     <color name="material_drawer_dark_header_selection_text">#FFF</color>
 
-
+    <color name="available" >#4ea851</color>
+    <color name="busy">#f44336</color>
     <color name="white">#ffffff</color>
     <color name="white_15_percent">#26ffffff</color>
     <color name="white_30_percent">#4Dffffff</color>

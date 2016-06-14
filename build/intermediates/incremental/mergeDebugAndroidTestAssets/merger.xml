@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/shemul/AndroidStudioProjects/fcloudCloud/src/androidTest/assets"/><source path="/Users/shemul/AndroidStudioProjects/fcloudCloud/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\android\FC_Android\src\androidTest\assets"/><source path="F:\android\FC_Android\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

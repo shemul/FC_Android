@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/drawable-land-nodpi-v4/splash_screen_background.jpg",
-        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/res/drawable-land-nodpi/splash_screen_background.jpg"
+        "merged": "F:\\android\\FC_Android\\build\\intermediates\\res\\merged\\debug\\drawable-land-nodpi-v4\\splash_screen_background.jpg",
+        "source": "F:\\android\\FC_Android\\res\\drawable-land-nodpi\\splash_screen_background.jpg"
+    },
+    {
+        "merged": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\res\\merged\\debug\\drawable-land-nodpi-v4\\splash_screen_background.jpg",
+        "source": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\res\\drawable-land-nodpi\\splash_screen_background.jpg"
     }
 ]

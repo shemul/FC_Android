@@ -1,14 +1,22 @@
 [
     {
-        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "F:\\android\\FC_Android\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "F:\\android\\FC_Android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\android\\FC_Android\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "F:\\android\\FC_Android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
     }
 ]

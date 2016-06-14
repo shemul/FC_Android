@@ -1,12 +1,10 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
-dependencies {
 
-}
 
 buildscript {
     repositories {
-        jcenter() // or mavenCentral()
+        mavenCentral()
     }
 
     dependencies {

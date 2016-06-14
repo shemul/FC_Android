@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/shemul/AndroidStudioProjects/fcloudCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "F:\\android\\FC_Android\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "F:\\android\\FC_Android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "F:\\Users\\shemul\\AndroidStudioProjects\\fcloudCloud\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v23\\abc_color_highlight_material.xml"
     }
 ]
